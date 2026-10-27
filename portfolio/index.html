@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>M. Gowtham Ram | Project Manager, Social Media &amp; Video Content</title>
+<meta name="description" content="Project manager for social media and video content. 7+ years, remote team of five, 6+ client accounts. 10M views on YouTube, 1M organic views several times.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0F2A4A; --navy2:#173A63; --ink:#1B2433; --muted:#4F5B70; --line:#DCE1EA;
+  --gold:#B8923A; --gold-l:#E7CE8E; --bg:#FAFAF8; --card:#FFFFFF;
+  --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --sans:Inter,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:400 1.0625rem/1.7 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:var(--navy2)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:4px}
+.wrap{max-width:980px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--serif);line-height:1.15;color:var(--navy)}
+
+/* hero */
+.hero{background:var(--navy);color:#fff;border-bottom:5px solid var(--gold);
+  background-image:repeating-linear-gradient(135deg,rgba(255,255,255,.035) 0 1px,transparent 1px 14px),linear-gradient(180deg,#0F2A4A,#0B2039)}
+.topbar{display:flex;flex-wrap:wrap;gap:6px 24px;padding:16px 0;font-size:.95rem;border-bottom:1px solid rgba(255,255,255,.18)}
+.topbar a{color:#fff;text-decoration:none}
+.topbar a:hover{color:var(--gold-l);text-decoration:underline}
+.hero-body{padding:56px 0 64px}
+.hero h1{color:#fff;font-size:clamp(3rem,10vw,5.8rem);font-weight:700;letter-spacing:-.025em;line-height:1.02}
+.role{margin-top:14px;color:var(--gold-l);font:500 clamp(1.05rem,2.4vw,1.35rem)/1.4 var(--sans)}
+.headline{margin-top:28px;max-width:30ch;color:#fff;font:500 clamp(1.5rem,3.6vw,2.2rem)/1.25 var(--serif)}
+.lead{margin-top:18px;max-width:60ch;color:#D5DEEB;font-size:1.1rem}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
+.btn{display:inline-block;padding:13px 24px;border-radius:6px;font:600 1rem var(--sans);text-decoration:none;border:2px solid var(--gold);cursor:pointer}
+.btn.gold{background:var(--gold);color:#101820}
+.btn.gold:hover{background:var(--gold-l);border-color:var(--gold-l)}
+.btn.line{background:transparent;color:#fff}
+.btn.line:hover{background:rgba(255,255,255,.1)}
+
+section{padding:68px 0;border-top:1px solid var(--line)}
+section:first-of-type{border-top:0}
+h2{font-size:clamp(1.9rem,4.2vw,2.6rem);margin-bottom:12px}
+h2::after{content:"";display:block;width:56px;height:3px;background:var(--gold);margin-top:14px}
+.sub{color:var(--muted);max-width:62ch;margin:18px 0 28px}
+h2+.stats,h2+.pipe,h2+.cases,h2+p{margin-top:24px}
+
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px}
+.stat{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--navy);padding:20px}
+.stat b{display:block;font:700 clamp(2.2rem,5vw,3rem)/1 var(--serif);color:var(--navy)}
+.stat span{display:block;margin-top:8px;color:var(--muted);font-size:.98rem;line-height:1.4}
+.how{margin-top:24px;max-width:64ch}
+
+.pipe{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;counter-reset:s}
+.pipe li{counter-increment:s;background:var(--card);border:1px solid var(--line);padding:16px}
+.pipe li::before{content:counter(s);display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--navy);color:#fff;font:700 .85rem var(--sans);margin-bottom:10px}
+.pipe strong{display:block;font-family:var(--serif);color:var(--navy)}
+.pipe small{display:block;color:var(--muted);font-size:.92rem;line-height:1.4;margin-top:4px}
+
+.cases{display:grid;gap:20px;margin-top:28px}
+.case{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--gold);padding:28px}
+.case h3{font-size:1.5rem;margin-bottom:14px}
+.case dl{display:grid;grid-template-columns:120px 1fr;gap:10px 18px}
+.case dt{font-weight:600;color:var(--navy2)}
+.case dd{margin:0}
+@media(max-width:600px){.case dl{grid-template-columns:1fr;gap:2px}.case dt{margin-top:10px}.case{padding:22px}}
+
+.ai{background:var(--navy);color:#E4EAF3;border-top:0}
+.ai h2,.ai h3{color:#fff}
+.ai p{max-width:66ch;margin-top:16px}
+.ai ul{margin:18px 0 0 20px;max-width:66ch}
+.ai li{margin-bottom:8px}
+
+.chips{display:flex;flex-wrap:wrap;gap:10px;list-style:none;padding:0}
+.chips li{border:1px solid var(--line);background:var(--card);padding:6px 14px;border-radius:999px;font-size:.98rem}
+.chips.first li:first-child{background:var(--navy);color:#fff;border-color:var(--navy);font-weight:600}
+.group{margin-top:24px}
+.group h3{font-size:1.15rem;margin-bottom:10px}
+.learning{margin-top:24px;padding:14px 18px;background:#F3EEDF;border-left:4px solid var(--gold)}
+
+.timeline{list-style:none;padding:0;border-left:2px solid var(--line);margin-top:24px}
+.timeline li{padding:0 0 26px 24px;position:relative}
+.timeline li::before{content:"";position:absolute;left:-7px;top:9px;width:12px;height:12px;border-radius:50%;background:var(--gold)}
+.timeline b{font:700 1.15rem var(--serif);color:var(--navy)}
+.timeline .when{display:block;color:var(--muted);font-size:.95rem}
+
+.contact{background:var(--navy);color:#fff;border-top:5px solid var(--gold)}
+.contact h2{color:#fff}
+.contact p{max-width:54ch;margin-top:20px;color:#D5DEEB}
+.contact ul{list-style:none;padding:0;margin-top:20px;display:grid;gap:8px;font-size:1.15rem}
+.contact a{color:var(--gold-l)}
+
+dialog{border:0;border-radius:10px;padding:28px;max-width:420px;width:calc(100% - 32px);box-shadow:0 20px 60px rgba(0,0,0,.35)}
+dialog::backdrop{background:rgba(10,20,36,.6)}
+dialog h3{font-size:1.4rem;margin-bottom:6px}
+dialog p{color:var(--muted);margin-bottom:18px;font-size:1rem}
+dialog .opt{display:block;text-align:center;margin-bottom:10px;border-color:var(--navy);color:var(--navy);background:#fff}
+dialog .opt:hover{background:var(--navy);color:#fff}
+dialog .close{background:none;border:0;color:var(--muted);font:500 .95rem var(--sans);cursor:pointer;padding:6px;text-decoration:underline}
+footer{padding:22px 0;color:#AEB9CB;background:#0B2039;font-size:.9rem}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="topbar">
+      <a href="mailto:m.gowthamram@gmail.com">m.gowthamram@gmail.com</a>
+      <a href="tel:+918870601288">+91 88706 01288</a>
+      <a href="https://linkedin.com/in/gowthamram25">linkedin.com/in/gowthamram25</a>
+      <span>Tirunelveli, India · Remote</span>
+    </div>
+    <div class="hero-body">
+      <h1>M. Gowtham Ram</h1>
+      <p class="role">Project Manager · Social Media, LinkedIn &amp; Video Content</p>
+      <!-- HEADLINE: swap this line for the option you choose -->
+      <p class="headline">I turn busy content calendars into videos and posts that actually get seen.</p>
+      <p class="lead">7+ years in social media and video. I lead a remote team of five across 6+ client accounts on LinkedIn, Instagram, Facebook and YouTube, and I have kept every client I have managed.</p>
+      <div class="cta">
+        <a class="btn gold" href="Gowtham_Ram_Resume.pdf" download="Gowtham_Ram_Resume.pdf">Download resume</a>
+        <button class="btn line" id="touch">Get in touch</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section id="results"><div class="wrap">
+  <h2>Results</h2>
+  <div class="stats">
+    <div class="stat"><b>10M</b><span>YouTube views, reached twice for a client who had no breakout video</span></div>
+    <div class="stat"><b>1M</b><span>Organic views, reached several times</span></div>
+    <div class="stat"><b>+85%</b><span>LinkedIn engagement in six months</span></div>
+    <div class="stat"><b>+65%</b><span>Organic reach in the same six months</span></div>
+  </div>
+  <p class="how">How: weekly analytics reviews, posting at the right time, SEO checks and a close eye on what each platform's algorithm rewards. I drop what isn't working and do more of what people respond to.</p>
+</div></section>
+
+<section id="work" style="background:#fff"><div class="wrap">
+  <h2>How I run a content pipeline</h2>
+  <p class="sub">The same steps for every client, tracked in shared boards so nobody has to chase anyone.</p>
+  <ol class="pipe">
+    <li><strong>Plan</strong><small>Calendar and video shoot plans</small></li>
+    <li><strong>Script</strong><small>Written and reviewed</small></li>
+    <li><strong>Coordinate</strong><small>Writers, AI-assisted creator, editor</small></li>
+    <li><strong>Edit and approve</strong><small>Quality check, client sign-off</small></li>
+    <li><strong>Post</strong><small>Scheduled, reviewed weekly</small></li>
+  </ol>
+</div></section>
+
+<section id="cases"><div class="wrap">
+  <h2>Case studies</h2>
+  <div class="cases">
+
+    <article class="case">
+      <h3>Running 6+ client accounts at once</h3>
+      <dl>
+        <dt>Problem</dt><dd>Six or more clients means six or more brands, calendars, approval chains and posting schedules, all moving at once. One late script or missed shoot can slip a whole week of content across four platforms.</dd>
+        <dt>What I did</dt><dd>Built and maintain a social media calendar for each client with video shoot plans, scripting, coordination, editing, approval and posting mapped out ahead of time. I lead a team of five and run the weekly client reviews and escalations myself.</dd>
+        <dt>Result</dt><dd>Every client account retained, work delivered on deadline, all fully remote.</dd>
+      </dl>
+    </article>
+
+    <article class="case">
+      <h3>1M organic views, several times</h3>
+      <dl>
+        <dt>Problem</dt><dd>Clients wanted reach without paying for it.</dd>
+        <dt>What I did</dt><dd>Posted at the right times, ran SEO checks before publishing and shaped content around how the algorithm distributes it.</dd>
+        <dt>Result</dt><dd>Passed 1M organic views several times, with good appreciation from the client.</dd>
+      </dl>
+    </article>
+
+    <article class="case">
+      <h3>10M views on YouTube, twice</h3>
+      <dl>
+        <dt>Problem</dt><dd>A client was frustrated that nothing big was happening on YouTube.</dd>
+        <dt>What I did</dt><dd>Reworked the channel's approach to timing, search optimisation and what gets recommended. <!-- TODO: add specifics when you share them --></dd>
+        <dt>Result</dt><dd>Two videos reached 10M views, a breakout the client had not seen before.</dd>
+      </dl>
+    </article>
+
+    <article class="case">
+      <h3>A ₹15 lakh sale from LinkedIn lead generation</h3>
+      <dl>
+        <dt>Problem</dt><dd>At my previous company, a client needed a real sale, not just impressions.</dd>
+        <dt>What I did</dt><dd>Ran lead generation on LinkedIn and followed the prospect through to a deal.</dd>
+        <dt>Result</dt><dd>Closed a project worth around ₹15 lakh for the client, and received good appreciation for it.</dd>
+      </dl>
+    </article>
+
+    <article class="case">
+      <h3>A startup's social presence, from zero</h3>
+      <dl>
+        <dt>Problem</dt><dd>CG Technology &amp; Solutions, a Tirunelveli startup, had no social media presence.</dd>
+        <dt>What I did</dt><dd>Defined the go-to-market approach and set up LinkedIn, Facebook and Instagram from scratch.</dd>
+        <dt>Result</dt><dd>The first qualified leads came from organic social campaigns and local networking.</dd>
+      </dl>
+    </article>
+
+  </div>
+</div></section>
+
+<section class="ai" id="ai"><div class="wrap">
+  <h2>How I use AI every day</h2>
+  <p>Claude and ChatGPT are the first tools I open when work starts. I use them to ease my workflow and to get fresh ideas every day, and they have solved many, many problems for me.</p>
+  <p>I believe AI is the future of this field, so I keep learning how to apply it to digital marketing and beyond.</p>
+  <ul>
+    <li>Content ideas and script drafts</li>
+    <li>Faster briefs, reviews and reporting</li>
+    <li>A workflow where my team uses AI-assisted image and video creation</li>
+  </ul>
+</div></section>
+
+<section id="experience"><div class="wrap">
+  <h2>Experience</h2>
+  <ul class="timeline">
+    <li><b>Project Manager, Social Media, LinkedIn &amp; Video Content</b><span class="when">Digital SEO, remote · Nov 2022 to present</span>
+      Plan and run campaigns for 6+ client accounts, lead a team of five and act as the main client contact.</li>
+    <li><b>Digital Marketer &amp; Project Manager</b><span class="when">3A Business Consultancy, Chennai · May to Oct 2022</span>
+      Ran campaigns for 3+ clients at once across LinkedIn ads, email and organic social, with bi-weekly ROI reports.</li>
+    <li><b>Freelance Digital Marketer</b><span class="when">Self-employed · Jan 2018 to Jul 2022</span>
+      Managed content and scheduling for local businesses on Instagram, Facebook and LinkedIn.</li>
+    <li><b>Media Manager &amp; Marketing Lead</b><span class="when">CG Technology &amp; Solutions, Tirunelveli · May 2016 to Aug 2018</span>
+      Built the startup's social presence and go-to-market approach from zero.</li>
+  </ul>
+
+  <h2 style="margin-top:36px;font-size:1.8rem">Skills and tools</h2>
+  <div class="group"><h3>Management</h3>
+    <ul class="chips first"><li>Project management</li><li>Team leadership</li><li>Client and account management</li><li>Creative workflow management</li><li>Deadline tracking</li><li>Stakeholder coordination</li></ul></div>
+  <div class="group"><h3>Content and social</h3>
+    <ul class="chips"><li>Content strategy</li><li>LinkedIn marketing</li><li>YouTube</li><li>Instagram</li><li>Facebook</li><li>Scriptwriting</li><li>Video production</li><li>SEO</li><li>Lead generation</li></ul></div>
+  <div class="group"><h3>Tools</h3>
+    <ul class="chips"><li>ClickUp</li><li>Zoho Projects</li><li>GA4</li><li>LinkedIn Analytics</li><li>YouTube Studio</li><li>Meta Business Suite</li><li>HubSpot</li><li>DaVinci Resolve</li><li>Canva</li><li>Claude</li><li>ChatGPT</li><li>Gemini</li></ul></div>
+  <div class="group"><h3>Education and certifications</h3>
+    <ul class="chips"><li>B.Tech, Information Technology (2016)</li><li>HubSpot Social Media</li><li>Google Analytics IQ</li><li>Meta Blueprint Social Media Marketing</li><li>DaVinci Resolve Video Editing</li></ul></div>
+  <p class="learning">Currently learning Jira, Agile and Scrum to bring more structure to creative teams' planning.</p>
+</div></section>
+
+<section class="contact" id="contact"><div class="wrap">
+  <h2>Let's talk</h2>
+  <p>Hiring for content, social or creative project management? I work fully remotely with clear written updates, shared trackers and deadlines met without being chased.</p>
+  <ul>
+    <li><a href="mailto:m.gowthamram@gmail.com">m.gowthamram@gmail.com</a></li>
+    <li><a href="tel:+918870601288">+91 88706 01288</a></li>
+    <li><a href="https://linkedin.com/in/gowthamram25">linkedin.com/in/gowthamram25</a></li>
+    <li><a href="Gowtham_Ram_Resume.pdf" download="Gowtham_Ram_Resume.pdf">Download resume (PDF)</a></li>
+  </ul>
+</div></section>
+</main>
+
+<footer><div class="wrap">© 2026 M. Gowtham Ram · Tirunelveli, Tamil Nadu, India</div></footer>
+
+<dialog id="dlg" aria-labelledby="dt">
+  <h3 id="dt">How should we connect?</h3>
+  <p>Choose whichever suits you.</p>
+  <a class="btn opt" href="tel:+918870601288">Call +91 88706 01288</a>
+  <a class="btn opt" href="mailto:m.gowthamram@gmail.com?subject=Opportunity%20for%20Gowtham%20Ram">Email m.gowthamram@gmail.com</a>
+  <button class="close" id="close">Close</button>
+</dialog>
+<script>
+const d=document.getElementById('dlg');
+document.getElementById('touch').addEventListener('click',()=>d.showModal());
+document.getElementById('close').addEventListener('click',()=>d.close());
+d.addEventListener('click',e=>{if(e.target===d)d.close()});
+</script>
+</body>
+</html>
